@@ -1,0 +1,206 @@
+.permission-data-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  border: 1px solid #2e2e2e;
+  margin: 5px;
+}
+table {
+  width: 100%;
+  border: none;
+}
+.map-toggle {
+  border: none;
+  background-color: transparent;
+}
+.all-cam-icon-container {
+  display: flex;
+  align-items: center;
+}
+.all-cameras-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom:1px solid #2d2d2d;
+}
+
+.toggle-icon {
+  color: #ef5350;
+  font-size: 45px;
+  border: none;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 27px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #ef5350;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #ef5350;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.all-cameras-app-container {
+  display: flex;
+  flex-direction: column;
+  background-color:transparent;
+  padding:13px;
+}
+.each-camera-container {
+  height: 320px;
+  width: 400px;
+  background-color: #2d2d2d;
+  padding: 10px;
+  border-radius: 5px;
+  margin:20px;
+}
+.each-camera-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.each-zone-name {
+  color: white;
+}
+.image-bg-container {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-image: url("https://res.cloudinary.com/dzhyal5op/image/upload/v1655124252/shoppingImage_fsbhwm.jpg");
+  background-size: cover;
+}
+.image-bg-container1{
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-image: url("https://res.cloudinary.com/dzhyal5op/image/upload/v1655308668/shoppingImage5_mzmvtw.jpg");
+  background-size: cover;
+}
+.image-bg-container2{
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-image: url("https://res.cloudinary.com/dzhyal5op/image/upload/v1655308668/shoppingImage3_lbfnns.jpg");
+  background-size: cover;
+}
+.image-bg-container3{
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-image: url("https://res.cloudinary.com/dzhyal5op/image/upload/v1655308668/shppingImage2_xk2xc6.jpg");
+  background-size: cover;
+}
+.image-bg-container4{
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-image: url("");
+  background-size: cover;
+}
+.image-bg-container5{
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-image: url("https://res.cloudinary.com/dzhyal5op/image/upload/v1655309174/shoppingImage6_arc0vy.webp");
+  background-size: cover;
+}
+
+.thumbnails-list-containers {
+  margin: 0px;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  align-items:center;
+}
+.thumbnail-item {
+  background-color: #121212;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+}
+p{
+  width:fit-content;
+}
+.all-cameras-list-container{
+  display:flex;
+  align-items: center;
+  flex-wrap:wrap;
+}
+.menu-thumbnail-icon{
+  background-color:#1e1e1e;
+  height:30px;
+  width:30px;
+}
