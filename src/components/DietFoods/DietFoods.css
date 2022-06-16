@@ -1,0 +1,167 @@
+.all-cameras-app-container {
+    display: flex;
+    flex-direction: column;
+    background-color:transparent;
+    padding:13px;
+  }
+  .each-camera-container {
+    
+    width: 400px;
+    background-color: #2d2d2d;
+    padding: 10px;
+    border-radius: 5px;
+    margin:20px;
+  }
+  .each-camera-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .all-images-containers{
+      display:flex;
+      flex-wrap:wrap;
+      
+  }
+ 
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 27px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #ef5350;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #ef5350;
+}
+
+.all-cam-icon-container {
+    display: flex;
+    align-items: center;
+  }
+
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.all-cameras-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #2d2d2d;
+  }
+
+.diet-foods-sub-header{
+    display:flex;
+    align-items: center;
+    
+    
+    
+}
+.each-camera-container {
+   
+    background-color:transparent;
+    padding: 10px;
+    border-radius: 5px;
+    margin:20px;
+  }
+  .each-camera-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .each-zone-name {
+    color: white;
+  }
+  .image-bg-container {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    
+    
+  
+    background-image: url("https://res.cloudinary.com/dzhyal5op/image/upload/v1655124252/shoppingImage_fsbhwm.jpg");
+    background-size: cover;
+  }
+
+
+
+  .image-bg-container1 {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    
+    
+  
+    background-image: url("https://res.cloudinary.com/dzhyal5op/image/upload/v1655312304/shoppingImage9_b7insc.jpg");
+    background-size: cover;
+  }
+  .camera-details{
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+
+  }
+  .person-button{
+      outline:none;
+      border:none;
+      cursor:pointer;
+      background-color:rgba(239, 83, 80, 0.89) ;
+      color:white;
+
+
+  }

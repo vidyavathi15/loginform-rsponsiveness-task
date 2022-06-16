@@ -1,0 +1,21 @@
+.doughnet-container{
+    background-color:#1e1e1e;
+    height:300px;
+    width:300px;
+    border-radius:5px;
+    padding:12px;
+    margin:13px;
+}
+.mask-detection{
+    color:#ffffff;
+    font-size:20px;
+}
+.detection-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dropdown-container{
+    background-color: #1e1e1e;
+    color:#ffffff;
+}

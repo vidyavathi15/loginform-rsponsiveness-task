@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('./fonts/icomoon.eot?w1gt3r');
+  src:  url('./fonts/icomoon.eot?w1gt3r#iefix') format('embedded-opentype'),
+    url('./fonts/icomoon.ttf?w1gt3r') format('truetype'),
+    url('./fonts/icomoon.woff?w1gt3r') format('woff'),
+    url('./fonts/icomoon.svg?w1gt3r#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu-copy-26-1:before {
+  content: "\e900";
+  color: #ffb74d;
+}
+.icon-menu-copy-25:before {
+  content: "\e901";
+  color: #25bb83;
+}
+.icon-menu-copy-24:before {
+  content: "\e902";
+  color: #9e9e9e;
+}
+.icon-menu-copy-15:before {
+  content: "\e903";
+  color: #9e9e9e;
+}
+.icon-attendence-copy-7:before {
+  content: "\e904";
+  color: #9e9e9e;
+}
+.icon-attendence:before {
+  content: "\e905";
+  color: #9e9e9e;
+}
+.icon-attendence-copy-2:before {
+  content: "\e906";
+  color: #9e9e9e;
+}
+.icon-covid-19:before {
+  content: "\e907";
+  color: #9e9e9e;
+}
+.icon-dashboard:before {
+  content: "\e908";
+  color: #9e9e9e;
+}
+.icon-zones:before {
+  content: "\e909";
+  color: #9e9e9e;
+}
+.icon-add-zone1:before {
+  content: "\e90a";
+  color: #9e9e9e;
+}

@@ -159,7 +159,7 @@ input:checked + .slider:before {
   flex-direction: column;
   justify-content: space-between;
 
-  background-image: url("");
+  background-image: url("https://res.cloudinary.com/dzhyal5op/image/upload/v1655308668/shoppingImage3_lbfnns.jpg");
   background-size: cover;
 }
 .image-bg-container5{
