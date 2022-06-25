@@ -62,17 +62,17 @@ function DoughnutCharts() {
             display: true,
             text: "Doughnut Chart",
           },
-          doughnutlabel: {
-            labels: [{
-              text: '550',
-              font: {
-                size: 20,
-                weight: 'bold'
-              }
-            }, {
-              text: 'total'
-            }]
-          }
+          // doughnutlabel: {
+          //   labels: [{
+          //     text: '550',
+          //     font: {
+          //       size: 20,
+          //       weight: 'bold'
+          //     }
+          //   }, {
+          //     text: 'total'
+          //   }]
+          // }
 
 
         

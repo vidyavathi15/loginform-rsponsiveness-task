@@ -1,8 +1,11 @@
-.barchat-container{
+.barchat-container-lowest{
     display:flex;
     flex-direction:column;
     
     background-color:#1e1e1e;
+    width:600px;
+    height:400px;
+    padding:20px;
    
     border-radius:5px;
 }

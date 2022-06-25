@@ -1,9 +1,15 @@
-.barchat-container{
+.barchat-container-highest{
     display:flex;
     flex-direction:column;
     
     background-color:#1e1e1e;
     padding-bottom:13px;
+    width:600px;
+    height:400px;
+    padding:20px;
+    margin-right:10px;
+    
+    
     
     border-radius:5px;
 }

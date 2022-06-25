@@ -33,16 +33,20 @@ function Attendance() {
     setMonthId(e.target.value);
   };
 
+
+
   const onChange = (value) => {
     setValue(value);
   };
+
+  
   return (
     <div className="attendance-bg-container">
       <div className="attendance-container">
         <h4 className="heading">Attendence</h4>
         <div className="right-container">
           <div className="attendance-name">
-            <p style={{ fontSize: "10px", color: "white", lineHeight: "0em" }}>
+            <p style={{ fontSize: "10px", color: "white", lineHeight: "0px" }}>
               MONTH
             </p>
             <select
@@ -61,7 +65,7 @@ function Attendance() {
             </select>
           </div>
           <div className="attendance-name">
-            <p style={{ fontSize: "10px", color: "white", lineHeight: "0em" }}>
+            <p style={{ fontSize: "10px", color: "white", lineHeight: "0px" }}>
               Year
             </p>
             <select

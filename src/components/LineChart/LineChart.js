@@ -86,8 +86,8 @@ function LineChart() {
             // },
           ],
         }}
-        height={500}
-        width={500}
+        // height={500}
+        // width={500}
         options={{
           // maintainAspectRatio: false,
           // if we want horizontal bargraph , we should keep like this
@@ -116,8 +116,42 @@ function LineChart() {
           // }
           // },
 
+          plugins:{
+            legend:{
+              display:false,
+            },
+          
+
+          
+          tooltip:{
+            backgroundColor: "green", 
+            borderRadius:"60%s", 
+            textAlign:"center", 
+            displayColors:false, 
+            caretSize:0,// tootltip arrow size
+            
+
+
+          },
+
+         
+        },
+          
+          
+          
+          
+          
+          
+          
           scales: {
             x: {
+              grid:{
+                display:true, 
+                borderDash:[6,6],
+                drawBorder:true, 
+                color:"#353535",
+              }, 
+             
               // we should x axis and y axis like objects
               title: {
                 display: true,
@@ -126,7 +160,14 @@ function LineChart() {
             },
 
             y: {
+
               // we should x axis and y axis like objects
+              grid:{ // grid lines show x-axis and y-axis []
+                display:true, 
+                borderDash:[6,6], // dash height and width here 6,6
+                drawBorder:true, // order is to true
+                color:"#353535", // dash color
+              }, 
               title: {
                 display: true,
                 text: "Revenue",

@@ -1,66 +1,63 @@
-.covid-19-app-container{
-    display: flex;
-    flex-direction: column;
-    background-color:#121212;
-    min-height:100vh;
-    width:100vw;
+.covid-19-app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 10px;
 }
-.covid-19-header{
-    display:flex;
-    align-items: center;
-    justify-content:space-between;
+.covid-19-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #2d2d2d;
+  padding: 10px;
 }
-.covid-19-first-container{
-    display:flex;
-    align-items: center;
+.covid-19-first-container {
+  display: flex;
+  align-items: center;
 }
-.covid-19-hader-text{
-    color:white;
-    
+.covid-19-hader-text {
+  color: white;
 }
-.covid-19-list-container{
-    margin:0px;
-    padding-left:0px;
-    display:flex;
-    align-items: center;
-    list-style-type: none;
-    margin-left:14px;
+.covid-19-list-container {
+  margin: 0px;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-left: 14px;
+}
+.inpute-covid-date {
+  outline: none;
+  background-color: transparent;
 
+  border: none;
 }
-.inpute-covid-date{
-    
-    outline:none;
-    background-color:transparent;
-    
-    border:none;
-    
-
+.covid-19-date {
+  display: flex;
+  flex-direction: column;
+  background-color: #2e2e2e;
+  outline: none;
+  border: 1px solid #323232;
+  border-radius: 4px;
+  padding: 12px;
+  color: white;
+  line-height: 0px;
 }
-.covid-19-date{
-    display:flex;
-    flex-direction:column;
-    background-color:#2e2e2e;
-    outline:none;
-    border:1px solid #323232;
-    border-radius:4px;
-    padding:12px;
-    color:white;
-    line-height:0px;
-
+.covid-19-second-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.covid-19-second-container{
-    display:flex;
-    align-items: center;
-    justify-content: space-around;
+.covid-19-header-label {
+  color: white;
 }
-.covid-19-header-label{
-    color:white;
-}
-.download-button{
-    background-color:#ef5350;
-    color:white;
-    border:none;
-    outline:none;
-    cursor:pointer;
-    padding:12px;
+.download-button {
+  background-color: #ef5350;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px;
 }

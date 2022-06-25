@@ -81,9 +81,7 @@ export const list = () => {
   );
 };
 
-const Dashboard = (props) => {
-  console.log(props);
-  console.log("dashboard called");
+const Dashboard = () => {
   return (
     <div className="dashboard-container">
       <div className="logo-address-container">

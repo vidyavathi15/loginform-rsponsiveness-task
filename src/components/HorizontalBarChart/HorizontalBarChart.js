@@ -14,9 +14,9 @@ function HorizontalBarChart() {
     setOptionId(e.target.value);
   };
   return (
-    <div className="barchat-container">
+    <div className="barchat-container-highest">
       <div className="detection-container">
-        <p className="mask-detection">Social Distancing</p>
+        <p className="mask-detection">Highest Occupancy</p>
         <select
           className="dropdown-container"
           value={optionId}
@@ -41,6 +41,8 @@ function HorizontalBarChart() {
               // fill: true,
               backgroundColor: "#1eb980",
               fill: true,
+              barPercentage:0.3,
+              
 
               pointBackgroundColor: "green",
               pointBorderColor: "yellow",
@@ -56,6 +58,8 @@ function HorizontalBarChart() {
               backgroundColor: "#1eb980",
               width: "20px",
               fill: true,
+              barPercentage:0.3,
+             
               pointBackgroundColor: "black",
               pointBorderColor: "red",
               tension: 0.3, // curved line
@@ -70,14 +74,16 @@ function HorizontalBarChart() {
               backgroundColor: "#1eb980",
               width: "20px",
               fill: true,
+              barPercentage:0.3,
+              
               pointBackgroundColor: "black",
               pointBorderColor: "red",
               tension: 0.3, // curved line
             },
           ],
         }}
-        height={480}
-        width={480}
+        height={150}
+        width={400}
         options={{
           plugins: {
             legend: {

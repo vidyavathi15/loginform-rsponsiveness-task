@@ -1,5 +1,5 @@
 import Cookies from "js-cookie";
-import { Redirect, Link, useHistory, Route } from "react-router-dom";
+import { Redirect, Link, Route } from "react-router-dom";
 import "./Home.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 // import { BsFillBellFill } from "react-icons/bs";
@@ -18,16 +18,25 @@ import MuiDrawer from "../MuiDrawer/MuiDrawer";
 import Chart from "../Charts/Chart";
 
 const Home = () => {
-  const history = useHistory();
+  // const history = useHistory();
   const jwtToken = Cookies.get("jwt_token");
   if (jwtToken === undefined) {
     return <Redirect to="/login" />;
+
+
   }
+
+
+
 
   const logout = () => {
     Cookies.remove("jwt_token");
-    history.replace("/login");
+    // history.replace("/login");
+    <Redirect to="/login" />
+    
   };
+
+
   return (
     <div className="home-container">
       <nav className="navbar-header">
@@ -77,28 +86,28 @@ const Home = () => {
       <div className="content">
         <Sidebar />
         <div>
-          <Route path="/profile">
+          <Route exact path="/profile">
             <Profile />
           </Route>
-          <Route path="/dashboard">
+          <Route exact path="/dashboard">
             <Dashboard />
           </Route>
-          <Route path="/allzones">
+          <Route exact path="/allzones" >
             <AllZones />
           </Route>
-          <Route path="/attendance">
+          <Route exact path="/attendance">
             <Attendance />
           </Route>
-          <Route path="/employees">
+          <Route exact path="/employees">
             <Employees />
           </Route>
-          <Route path="/roles">
+          <Route exact path="/roles">
             <Roles />
           </Route>
-          <Route path="/cameras">
+          <Route exact path="/cameras">
             <AllCameras />
           </Route>
-          <Route path="/total-customers">
+          <Route exact path="/total-customers">
             <Chart />
           </Route>
         </div>

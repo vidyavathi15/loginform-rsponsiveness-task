@@ -82,7 +82,7 @@ function AllZonesDrawer() {
                   className="names-list"
                 >
                   {namesList.map((eachOption) => (
-                    <option key={eachOption}> {eachOption}</option>
+                    <option ke1y={eachOption}> {eachOption}</option>
                   ))}
                 </select>
               </div>

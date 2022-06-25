@@ -45,6 +45,7 @@ function BarChart() {
 
               pointBackgroundColor: "green",
               pointBorderColor: "yellow",
+              barPercentage:0.3,
             },
             {
               label: "store 2",
@@ -59,11 +60,12 @@ function BarChart() {
               fill: true,
               pointBackgroundColor: "black",
               pointBorderColor: "red",
+              barPercentage:0.3,
             },
           ],
         }}
-        height={350}
-        width={500} // her e only we need to keep heights and widths, not in barchat container
+        height={50}
+        width={100} // her e only we need to keep heights and widths, not in barchat container
         // aspect ratio used to adjust height and width of a chart
         options={{
           plugins: {

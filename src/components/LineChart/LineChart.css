@@ -1,9 +1,12 @@
 .line-chart-app-container {
   display: flex;
   flex-direction: column;
+  width:100%;
+  height:30%;
   
   background-color:#1e1e1e;
   padding:10px;
+  border-radius:5px;
 }
 .line-chart-header {
   display: flex;

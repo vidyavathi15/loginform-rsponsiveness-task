@@ -1,187 +1,177 @@
-.roles-bg-container{
-    background-color:#121212;
-    min-height:100vh;
-    display: flex;
-    flex-direction: column;
-    padding:20px;
+.roles-bg-container {
+  background-color: #121212;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.roles-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.my-heading {
+  color: white;
+  font-size: 25px;
+  font-family: "Roboto";
+  font-weight: 800;
+}
+.hr-line {
+  width: 100%;
+  color: #2e2e2e;
+  border-width: 0.1px;
+}
+.roles-permission-container {
+  display: flex;
+  align-items: center;
+}
+.roles-heading {
+  color: white;
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: 800;
+  width: 12%;
+  background-color: #2e2e2e;
+  padding: 13px;
+  border-right: 1px solid #1e1e1e;
+}
+.permission-heading {
+  color: white;
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: 800;
+  padding: 13px;
+  width: 100%;
 
+  background-color: #2e2e2e;
 }
-.roles-header-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.side-bar-and-roles-container {
+  display: flex;
 }
-.my-heading{
-    color:white;
-    font-size:25px;
-    font-family: "Roboto";
-    font-weight:800;
-}
-.hr-line{
-    width:100%;
-    color:#2e2e2e;
-    border-width:0.1px;
-}
-.roles-permission-container{
-    display:flex;
-    align-items: center;
-}
-.roles-heading{
-    color: white;
-    font-size:15px;
-    font-family: "Roboto";
-    font-weight: 800;
-    width:12%;
-    background-color:#2e2e2e;
-    padding:13px;
-    border-right:1px solid #1e1e1e;
-}
-.permission-heading{
-    color: white;
-    font-size:15px;
-    font-family: "Roboto";
-    font-weight: 800;
-    padding:13px;
-    width:100%;
-    
-    background-color:#2e2e2e;
-
-}
-.side-bar-and-roles-container{
-    display:flex;
-    
-}
-.permission-data-container{
-    display: flex;
-    flex-direction: column;
-    margin-top:0px;
-    border:1px solid #2e2e2e;
-    margin:5px;
-
-}
-table{
-    width:100%;
-    border:none;
+.permission-data-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  border: 1px solid #2e2e2e;
+  margin: 5px;
 }
 
 
-
-.toggle-icon{
-    color:#ef5350;
-    font-size:45px;
-    border:none;
-    
-}   
-   
-    .switch {
-        position: relative;
-        display: inline-block;
-        width: 50px;
-        height: 27px;
-      }
-      
-      .switch input { 
-        opacity: 0;
-        width: 0;
-        height: 0;
-      }
-      
-      .slider {
-        position: absolute;
-        cursor: pointer;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: #ccc;
-        -webkit-transition: .4s;
-        transition: .4s;
-      }
-      
-      .slider:before {
-        position: absolute;
-        content: "";
-        height: 26px;
-        width: 26px;
-        left: 4px;
-        
-        background-color: white;
-        -webkit-transition: .4s;
-        transition: .4s;
-      }
-      
-      input:checked + .slider {
-        background-color: #ef5350;
-      }
-      
-      input:focus + .slider {
-        box-shadow: 0 0 1px #ef5350;
-      }
-      
-      input:checked + .slider:before {
-        -webkit-transform: translateX(26px);
-        -ms-transform: translateX(26px);
-        transform: translateX(26px);
-      }
-      
-      /* Rounded sliders */
-      .slider.round {
-        border-radius: 34px;
-      }
-      
-      .slider.round:before {
-        border-radius: 50%;
-      }
-.toggle-button{
-    
-    cursor:pointer;
-    outline:none;
-    border:none;
-    background-color: white;
+table {
+  width: 100%;
+  border: none;
 }
 
-.module-heading{
-    background-color:#2e2e2e;
-    padding:15px;
-    width:350px;
-    color:white;
-    text-align:start;
-    font-family: "Roboto";
-    border:none;
-    border-right:1px solid #1e1e1e;
+.toggle-icon {
+  color: #ef5350;
+  font-size: 45px;
+  border: none;
+}
 
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 70px;
 }
-.edit-heding{
-    border-right:1px solid #1e1e1e;
-    background-color:#2e2e2e;
-    width:300px;
-    color:white;
-    text-align:start;
-    padding-left:10px;
-    font-family: "Roboto";
-    
-   
-}
-th{
-    border:none;
-}
-td{
-    padding:15px;
 
+.switch input {
+  opacity: 0.3;
+  width: 0;
+  height: 0;
 }
-.zones-role{
-    color:white;
-    font-size:18px;
-    text-align:start;
-    padding:15px;
-    font-family: "Roboto";
-    
-    background-color: #1e1e1e;
-    border-bottom:1px solid #121212;
-    border-right:1px solid #121212;
-   
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
-.table-row{
-width:100%;
-border:none;
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  
+
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #ef5350;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #ef5350;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.slider .round {
+  border-radius: 34px;
+}
+
+.slider .round:before {
+  border-radius: 50%;
+}
+.toggle-button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+
+.module-heading {
+  background-color: #2e2e2e;
+  padding: 15px;
+  width: 350px;
+  color: white;
+  text-align: start;
+  font-family: "Roboto";
+  border: none;
+  border-right: 1px solid #1e1e1e;
+}
+.edit-heding {
+  border-right: 1px solid #1e1e1e;
+  background-color: #2e2e2e;
+  width: 300px;
+  color: white;
+  text-align: start;
+  padding-left: 10px;
+  font-family: "Roboto";
+}
+th {
+  border: none;
+}
+td {
+  padding: 15px;
+}
+.zones-role {
+  color: white;
+  font-size: 18px;
+  text-align: start;
+  padding: 15px;
+  font-family: "Roboto";
+
+  background-color: #1e1e1e;
+  border-bottom: 1px solid #121212;
+  border-right: 1px solid #121212;
+}
+.table-row {
+  width: 100%;
+  border: none;
 }

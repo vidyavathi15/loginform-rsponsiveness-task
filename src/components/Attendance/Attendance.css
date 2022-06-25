@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: flex-start;
     background-color: transparent;
+    min-width:100vw;
 
 }
 .attendance-name{
@@ -18,6 +19,7 @@
    flex-direction: column;
    margin-right:10px;
    padding:5px;
+   
    
 
 }
@@ -59,6 +61,7 @@ table {
 .right-container{
     display:flex;
     align-items: center;
+    width:fit-content;
    
 }
 .popup-content{

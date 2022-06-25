@@ -38,7 +38,7 @@ function Roles() {
               <td>
                 <label className="switch">
                   <input type="checkbox" />
-                  <span className="slider round" checked></span>
+                  <span className="slider round"></span>
                 </label>
               </td>
 

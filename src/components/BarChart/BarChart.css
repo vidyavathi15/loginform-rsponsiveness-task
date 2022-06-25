@@ -3,10 +3,12 @@
     flex-direction:column;
     background-size: cover;
     background-color:#1e1e1e;
+   
     
     border-radius:5px;
     padding:10px;
     margin:10px;
+    height:36vh;
 }
 .mask-detection{
     color:#ffffff;

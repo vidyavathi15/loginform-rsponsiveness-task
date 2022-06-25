@@ -10,7 +10,7 @@ const Forgot = () => {
     <>
     
      
-      <div className="bg-container">
+      <div className="container">
         <div className="verify-container">
           <form className="form-container">
             <h1 className="forgot-heading">Forgot Password</h1>

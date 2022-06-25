@@ -6,12 +6,14 @@
     justify-content: space-between;
     align-items: center;
   }
-  .nav-heading {
+  .nav-heading:hover {
     font-family: "Roboto";
     font-size: 30px;
     color: #ffffff;
+    
   }
-  .logo-img {
+  .logo-img:hover{
     width: 100px;
     height: 35px;
+    
   }

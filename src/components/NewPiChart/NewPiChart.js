@@ -18,7 +18,7 @@ function NewPiChart() {
     setOptionId(e.target.values);
   };
   return (
-    <div className="doughnet-container">
+    <div className="doughnet-container-new">
       <div className="detection-container">
         <p className="mask-detection">New Vs Repeate Customers</p>
         <select
@@ -64,17 +64,17 @@ function NewPiChart() {
             display: true,
             text: "Doughnut Chart",
           },
-          doughnutlabel: {
-            labels: [{
-              text: '550',
-              font: {
-                size: 20,
-                weight: 'bold'
-              }
-            }, {
-              text: 'total'
-            }]
-          }, 
+          // doughnutlabel: {
+          //   labels: [{
+          //     text: '550',
+          //     font: {
+          //       size: 20,
+          //       weight: 'bold'
+          //     }
+          //   }, {
+          //     text: 'total'
+          //   }]
+          // }, 
          
 
 

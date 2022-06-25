@@ -5,7 +5,7 @@
 import React from 'react'
 
 // import {Route} from "react-router-dom"
-// import Routes from "./Routes";
+import Routes from "./Routes";
 // import LineChart from "./components/LineChart/LineChart"
 // import Header from "./components/Header/Header"
 // import Sidebar from "./components/sidebar/sidebar";
@@ -16,7 +16,7 @@ import React from 'react'
 // index
 
 // import Roles from "./components/Roles/Roles"
-import Covid19 from './components/Covid19/Covid19';
+// import Covid19 from './components/Covid19/Covid19';
 
 const App = () => {
   return (
@@ -31,10 +31,10 @@ const App = () => {
     {/* <BarChart /> */}
    
      
-      {/* <Routes /> */}
+      <Routes />
     {/* <Charts /> */}
       {/* <LineChart /> */}
-      <Covid19 />
+      {/* <Covid19 /> */}
      
 
       
